@@ -1,5 +1,1 @@
-Here you can say lots of fun things about your site.
-
-Maybe say a some things about yourself.
-
-Or maybe what you plan to blog about.
+Welcome! I'm a software engineer based in Japan, and this is where I intend to share my learning and thoughts related to software engineering. Eventaully, I want to create my own blog from scratch, but this should do the time being until I have enough time to focus on doing so.
