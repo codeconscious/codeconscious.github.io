@@ -1,1 +1,1 @@
-Welcome! I'm a software engineer based in Japan, and this is where I intend to share my learnings and thoughts related to software engineering.
+Welcome! I'm a software engineer based in Japan, and this blog is where I share learnings, tips, and thoughts related to software engineering and computing in general.
