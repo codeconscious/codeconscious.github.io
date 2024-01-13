@@ -2,7 +2,7 @@
 
 When I find particularly notable articles online, I like to log them in my personal notes, which I organize with [Obsidian](https://obsidian.md/).
 
-Recently, I wrote the following Javascript to list up the headings of articles:
+Recently, I wrote the following Javascript to list up the headings of articles in my browser's inspector:
 
 ```javascript
 Array.from(document.querySelectorAll("h1, h2, h3, h4")).map(e => `${" ".repeat((parseInt(e.tagName[1])-1)*2)}- ${e.outerText.replace(/\:$/, '')}` ).join("\n")
@@ -30,8 +30,10 @@ Here's example output using [the article for which I decided to write this scrip
 >     - 3. Adjust
 >     - 4. Notes
 
+(The repeating ones are due to a GitHub rendering issue. The numbering is correct in the raw text.)
+
 I think reviewing lists like this might be beneficial for remembering articles' contents and recalling them later.
 
 ## 日本語の要約
 
-上記のJavaScriptをブラウザーのインスペクターなどで実行することによって、ページに載っているヘッダータッグのコンテンスを自動的にMarkdown記法でリストアップできます。メモっておきたい時には役に立つかと思います。
+上記のJavaScriptをブラウザーのインスペクターなどで実行することによって、ページに載っているヘッダータッグのコンテンスを自動的にMarkdown記法でリストアップできます。メモっておきたい時には役に立つかもしれないと思います。
