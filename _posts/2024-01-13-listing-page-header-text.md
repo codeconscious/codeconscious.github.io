@@ -2,13 +2,13 @@
 
 When I find particularly notable articles online, I like to log them in my personal note collection, which I organize with [Obsidian](https://obsidian.md/).
 
-To help with this, I recently wrote the following JavaScript snippet to list up the text of pages' header tags in my browser's inspector:
+To help with this, I recently wrote the following JavaScript bookmarklet to list up the text of pages' header tags in Firefox (and, hopefully, other browsers too):
 
 <script src="https://gist.github.com/codeconscious/0d7ac8ca0b1ee09c6ac81690897a683b.js"></script>
 
-This code creates a Markdown-friendly bulleted list, indenting more for each subheading level and also stripping out terminating colons (which, admittedly, are rare).
+This bookmarklet appends a Markdown-friendly bulleted list to the page, indenting more for each subheading level and also stripping out terminating colons (which, admittedly, are rare).
 
-Here's example output using [the article for which I decided to write this script](https://www.indiehackers.com/post/aim-fire-scan-the-80-20-of-executing-on-big-projects-571580cd0a):
+Here's example output using [the article for which I decided to write this bookmarklet](https://www.indiehackers.com/post/aim-fire-scan-the-80-20-of-executing-on-big-projects-571580cd0a):
 
 > - Aim, fire, scan: the 80/20 of executing on big projects
 >   - The Contract
@@ -30,8 +30,8 @@ Here's example output using [the article for which I decided to write this scrip
 
 (The repeating ones are due to a GitHub Markdown rendering issue. The numbering is correct in the actual text.)
 
-I think reviewing lists like this might be beneficial for remembering articles' contents and recalling them later.
+I think reviewing heading summaries like this might be beneficial for both remembering and recalling articles' contents.
 
 ## 日本語の要約
 
-上記のJavaScriptをブラウザーのインスペクターなどで実行することによって、ページに載っているヘッダータッグのコンテンスを自動的にMarkdown記法でリストアップできます。メモっておきたい時には役に立つかもしれないと思います。
+上記のJavaScript bookmarkletをブラウザーで実行することによって、ページに載っているヘッダータッグの文字列を自動的にMarkdown記法でリストアップできます。メモっておきたい時には役に立つかもしれないと思います。
