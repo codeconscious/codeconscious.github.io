@@ -1,8 +1,8 @@
-# Listing page header tag text
+# Bookmarklet to list page headings
 
 When I find particularly notable articles online, I like to log them in my personal note collection, which I organize with [Obsidian](https://obsidian.md/).
 
-To help with this, I recently wrote the following JavaScript bookmarklet to list up the text of pages' header tags in Firefox (and, hopefully, other browsers too):
+To help with this, I recently wrote the following JavaScript bookmarklet to list up the text of pages' headings (indicated via HTML tags like `H1` and `H2`) in Firefox (and, hopefully, other browsers too):
 
 <script src="https://gist.github.com/codeconscious/0d7ac8ca0b1ee09c6ac81690897a683b.js"></script>
 
