@@ -32,6 +32,8 @@ Here's example output using [the article for which I decided to write this bookm
 
 I think reviewing heading summaries like this might be beneficial for both remembering and recalling articles' contents.
 
+Also, this was my first time working with JavaScript in a while. It was nice to stretch those muscles a bit. I'll probably continue to tweak the code a bit over time as well.
+
 ## 日本語の要約
 
 上記のJavaScript bookmarkletをブラウザーで実行することによって、ページに載っているヘッダータッグの文字列を自動的にMarkdown記法でリストアップできます。メモっておきたい時には役に立つかもしれないと思います。
