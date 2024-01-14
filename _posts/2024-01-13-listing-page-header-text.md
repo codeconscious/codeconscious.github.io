@@ -1,16 +1,12 @@
-# Listing article headers
+# Listing page header tag text
 
-When I find particularly notable articles online, I like to log them in my personal notes, which I organize with [Obsidian](https://obsidian.md/).
+When I find particularly notable articles online, I like to log them in my personal note collection, which I organize with [Obsidian](https://obsidian.md/).
 
-Recently, I wrote the following Javascript to list up the headings of articles in my browser's inspector:
-
-```javascript
-Array.from(document.querySelectorAll("h1, h2, h3, h4")).map(e => `${" ".repeat((parseInt(e.tagName[1])-1)*2)}- ${e.outerText.replace(/\:$/, '')}` ).join("\n")
-```
+To help with this, I recently wrote the following JavaScript snippet to list up the text of pages' header tags in my browser's inspector:
 
 <script src="https://gist.github.com/codeconscious/0d7ac8ca0b1ee09c6ac81690897a683b.js"></script>
 
-This one-liner lists the headings on a page as a bulleted list in Markdown format, indenting more for each subheading and stripping out terminating colons (which, admittedly, are rare).
+This code creates a Markdown-friendly bulleted list, indenting more for each subheading level and also stripping out terminating colons (which, admittedly, are rare).
 
 Here's example output using [the article for which I decided to write this script](https://www.indiehackers.com/post/aim-fire-scan-the-80-20-of-executing-on-big-projects-571580cd0a):
 
@@ -32,7 +28,7 @@ Here's example output using [the article for which I decided to write this scrip
 >     - 3. Adjust
 >     - 4. Notes
 
-(The repeating ones are due to a GitHub rendering issue. The numbering is correct in the raw text.)
+(The repeating ones are due to a GitHub Markdown rendering issue. The numbering is correct in the actual text.)
 
 I think reviewing lists like this might be beneficial for remembering articles' contents and recalling them later.
 
