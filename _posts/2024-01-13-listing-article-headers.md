@@ -8,6 +8,8 @@ Recently, I wrote the following Javascript to list up the headings of articles i
 Array.from(document.querySelectorAll("h1, h2, h3, h4")).map(e => `${" ".repeat((parseInt(e.tagName[1])-1)*2)}- ${e.outerText.replace(/\:$/, '')}` ).join("\n")
 ```
 
+<script src="https://gist.github.com/codeconscious/0d7ac8ca0b1ee09c6ac81690897a683b.js"></script>
+
 This one-liner lists the headings on a page as a bulleted list in Markdown format, indenting more for each subheading and stripping out terminating colons (which, admittedly, are rare).
 
 Here's example output using [the article for which I decided to write this script](https://www.indiehackers.com/post/aim-fire-scan-the-80-20-of-executing-on-big-projects-571580cd0a):
