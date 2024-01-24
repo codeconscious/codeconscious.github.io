@@ -7,3 +7,5 @@ It's a very minor but persistent UX bummer, so today I decided to do something a
 <script src="https://gist.github.com/codeconscious/7fd3a8bed27d83c687578b1ee9c42dc8.js"></script>
 
 Just a simple fix for a small daily annoyance.
+
+_Update:_ I learned the following day that I can immediately jump to new comment entry with the `m` key. Nice to know!
