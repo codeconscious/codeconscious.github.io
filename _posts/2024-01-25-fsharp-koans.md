@@ -12,14 +12,14 @@ let YouGotTheAnswerCorrect() =
         let parsedDouble strNum = System.Double.Parse(strNum, CultureInfo.InvariantCulture)
         parsedDouble(close) - parsedDouble(opn)
 
-    let result list =
+    let largestOpenCloseDiff list =
         list
         |> List.skip 1 // The header row
         |> List.map splitCommas
         |> List.maxBy (fun line -> parsedDiff line[1] line[4])
         |> Array.item 0
 
-    AssertEquality "2012-03-13" (result stockData)
+    AssertEquality "2012-03-13" (largestOpenCloseDiff stockData)
 ```
 
 It's simple, but this is the first real F# I've ever written. It takes some getting used to, but I'm definitely starting to understand the appeal of F#—and of functional languages—a bit more.
