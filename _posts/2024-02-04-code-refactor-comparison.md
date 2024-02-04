@@ -1,6 +1,6 @@
 # Code Refactor Comparison
 
-While refactoring a method in my [AudioTagger](https://github.com/codeconscious/audiotagger) tool, I found myself undecided between two ways of accomplishing the same task, which was to examine a collection of directory and files paths and partitioning them into `(ImmutableList<string> Valid, ImmutableList<string> Invalid)`—that is, a two-pronged tuple with named members containing partitioned valid and invalid paths.
+While refactoring a method in my [AudioTagger](https://github.com/codeconscious/audiotagger) tool, I found myself undecided between two ways of accomplishing the same task, which was to examine a collection of directory and files paths and partitioning them into `(ImmutableList<string> Valid, ImmutableList<string> Invalid)`—that is, a two-pronged tuple with named members containing partitioned valid (existing) and invalid (nonexistant) paths.
 
 I've included the two versions I had, as written in C# 12, below:
 
@@ -40,6 +40,6 @@ var results = paths.Aggregate(
 return new ([.. results[true]], [.. results[false]]);
 ```
 
-I really like using [`Aggregate()`](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.aggregate?view=net-8.0) (which corresponds to some other languages' `reduce` function) where I can. Yet, I found myself wondering about the readability of version 2 compared with version 1. It's more procedural, but perhaps easier to read?
+I really like using [`Aggregate()`](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.aggregate?view=net-8.0) (which corresponds to some other languages' `reduce` function) where I can. Yet, I found myself wondering about the readability of version 2 compared with version 1. The second one is basically more functional, but is the top one easier to read and understand? Is the second one safer?
 
-I'm not sure which way I'll go as I write this, but I think the question is intriguing.
+I'm not sure which way I'll go as I write this, but I think the questions are intriguing.
