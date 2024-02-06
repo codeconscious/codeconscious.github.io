@@ -43,3 +43,22 @@ return new ([.. results[true]], [.. results[false]]);
 I really like using [`Aggregate()`](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.aggregate?view=net-8.0) (which corresponds to some other languages' `reduce` function) where I can. Yet, I found myself wondering about the readability of version 2 compared with version 1. The second one is less procedural and more functional, but is the top one easier to read and reason about? Is the second one safer code?
 
 I'm not sure which way I'll go as I write this, but I find the questions intriguing. I think it's the sort of thing we have to keep in mind as we write code.
+
+_Update:_ I came up with a draft of a potential **Version 3** using `GroupBy()`:
+
+```csharp
+static ImmutableList<string> extractBranch(
+            IEnumerable<IGrouping<bool, string>> group, bool branchKey) =>
+                group.Where(r => r.Key == branchKey)
+                    .SelectMany(g => g.Select(n => n))
+                    .ToImmutableList();
+
+var groups = paths.GroupBy(p => Path.Exists(p));
+var valid = extractBranch(groups, true);
+var invalid = extractBranch(groups, false);
+return new (valid, invalid);
+```
+
+In its current state, though, it iterates over `groups` twice, which is less than ideal.
+
+There's no right answer here and the answer might differ in various contexts; however, ultimately, I think the straightforwardness of Version 1 is winning me over. It's important to be practical, after all.
