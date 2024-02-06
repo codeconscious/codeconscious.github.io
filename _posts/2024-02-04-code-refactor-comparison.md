@@ -42,4 +42,4 @@ return new ([.. results[true]], [.. results[false]]);
 
 I really like using [`Aggregate()`](https://learn.microsoft.com/en-us/dotnet/api/system.linq.enumerable.aggregate?view=net-8.0) (which corresponds to some other languages' `reduce` function) where I can. Yet, I found myself wondering about the readability of version 2 compared with version 1. The second one is less procedural and more functional, but is the top one easier to read and reason about? Is the second one safer code?
 
-I'm not sure which way I'll go as I write this (though likely version 2), but I find the questions intriguing. I think it's the sort of thing we have to keep in mind as we write code.
+I'm not sure which way I'll go as I write this, but I find the questions intriguing. I think it's the sort of thing we have to keep in mind as we write code.
