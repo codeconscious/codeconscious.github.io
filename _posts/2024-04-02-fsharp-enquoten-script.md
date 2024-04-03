@@ -20,7 +20,7 @@ Source text from [Wikipedia's F# page](https://en.wikipedia.org/wiki/F_Sharp_(pr
 
 Output from `dotnet fsi Enquoten.fsx 40 ~/Downloads/fsharp.txt`:
 
-```
+```plain text
 > F# (pronounced F sharp) is a 
 > general-purpose, strongly typed, 
 > multi-paradigm programming language 
