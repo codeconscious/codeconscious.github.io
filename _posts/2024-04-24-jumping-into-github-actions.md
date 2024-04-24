@@ -1,4 +1,4 @@
-# GitHub Actions
+# Jumping Into GitHub Actions
 
 At work, I was recently asked to create a couple of small workflows in GitHub.
 
