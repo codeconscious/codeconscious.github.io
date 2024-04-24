@@ -6,6 +6,6 @@ I had never created such workflows before, but after watching a PluralSight cour
 
 It was more interesting than I'd expected!
 
-Me being me, I jumped right into adding simple build-and-test workflows into several of my personal projects here on GitHub (such as [CCVTAC](https://github.com/codeconscious/ccvtac/pull/40)). It definitely felt like a "Why haven't I done this before?" sort of task.
+Me being me, I jumped right into adding simple build-and-test workflows into several of my personal projects here on GitHub (such as [CCVTAC](https://github.com/codeconscious/ccvtac/pull/40)). It was an enjoyable "Why haven't I done this before?!" sort of task.
 
 Next, I might like to use GitHub Actions to set up automatic releases for my primary .NET projects. Perhaps I'll also set up automatic deploys of [StartWatch](https://codeconscious.github.io/2024/01/08/first-nuget-package.html) to NuGet as well. 🤔
