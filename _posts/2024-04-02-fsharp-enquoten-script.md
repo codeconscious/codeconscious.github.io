@@ -4,7 +4,7 @@ As part of my F# studies, I created a script that processes text files by (1) tr
 
 <script src="https://gist.github.com/codeconscious/6e098acad292171667eda3862aa6cdc7.js"></script>
 
-I'm still tinkering with it, but it has been a suprisingly good little exercise. I'm sure it can be done much better (and probably even as a crazy bash one-liner, though I'd argue this is far easier to debug 😄), but I'm pretty pleased with it as a relatively newbie to the language.
+I'm still tinkering with it, but it has been a suprisingly good little exercise. I'm sure it can be done much better (and probably even as a crazy bash one-liner, though I'd argue this is far easier to debug 😄), but I'm pretty pleased with it as a relatively newbie to the language. (_Edit:_ I've since made several updates from the initial version.)
 
 I had the idea to create a tool like this when I realized that it was a perfect chance for practicing tail-recursive functions.
 
@@ -18,7 +18,7 @@ Source text from [Wikipedia's F# page](https://en.wikipedia.org/wiki/F_Sharp_(pr
 > 
 > F# is a member of the ML language family and originated as a .NET Framework implementation of a core of the programming language OCaml. It has also been influenced by C#, Python, Haskell, Scala and Erlang.
 
-Output from `dotnet fsi Enquoten.fsx 40 ~/Downloads/fsharp.txt`:
+Output from `dotnet fsi Enquoten.fsx 40 "> " ~/Downloads/fsharp.txt`:
 
 ```fundamental
 > F# (pronounced F sharp) is a 
