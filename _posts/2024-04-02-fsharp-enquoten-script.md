@@ -1,6 +1,6 @@
 # F# "enquoten" script
 
-As part of my F# studies, I created a script that processes text files by (1) truncating lines to a specified maximum length and (2) prepending `> ` to the beginning of lines, thereby quoting them as in plain text emails.
+As part of my F# studies, I created a script that processes text files by (1) truncating lines to a specified maximum length and (2) prepending text (such as `> `) to the beginning of lines, thereby quoting them as in plain text emails.
 
 <script src="https://gist.github.com/codeconscious/6e098acad292171667eda3862aa6cdc7.js"></script>
 
