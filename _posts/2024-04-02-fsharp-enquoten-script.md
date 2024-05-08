@@ -8,7 +8,7 @@ I'm still tinkering with it, but it has been a suprisingly good little exercise.
 
 I had the idea to create a tool like this when I realized that it was a perfect chance for practicing tail-recursive functions.
 
-_Edit:_ I've since made several updates from [the initial version](https://gist.github.com/codeconscious/6e098acad292171667eda3862aa6cdc7/dd8dacabc72f91f0c5af079dba31a08963112078) and have add features as computation expressions and generics too!
+_Edit:_ I've since made several updates from [the initial version](https://gist.github.com/codeconscious/6e098acad292171667eda3862aa6cdc7/dd8dacabc72f91f0c5af079dba31a08963112078) and have added features as computation expressions and generics too!
 
 ## Example
 
