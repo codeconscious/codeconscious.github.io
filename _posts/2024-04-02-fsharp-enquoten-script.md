@@ -4,9 +4,11 @@ As part of my F# studies, I created a script that processes text files by (1) tr
 
 <script src="https://gist.github.com/codeconscious/6e098acad292171667eda3862aa6cdc7.js"></script>
 
-I'm still tinkering with it, but it has been a suprisingly good little exercise. I'm sure it can be done much better (and probably even as a crazy bash one-liner, though I'd argue this is far easier to debug 😄), but I'm pretty pleased with it as a relatively newbie to the language. (_Edit:_ I've since made several updates from the initial version.)
+I'm still tinkering with it, but it has been a suprisingly good little exercise. I'm sure it can be done much better (and probably even as a crazy bash one-liner, though I'd argue this is far easier to debug 😄), but I'm pretty pleased with it as a relatively newbie to the language.
 
 I had the idea to create a tool like this when I realized that it was a perfect chance for practicing tail-recursive functions.
+
+_Edit:_ I've since made several updates from [the initial version](https://gist.github.com/codeconscious/6e098acad292171667eda3862aa6cdc7/dd8dacabc72f91f0c5af079dba31a08963112078) and have add features as computation expressions and generics too!
 
 ## Example
 
