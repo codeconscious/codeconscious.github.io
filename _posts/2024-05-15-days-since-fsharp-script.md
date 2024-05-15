@@ -2,7 +2,7 @@
 
 I've created my second F# script! (The first one was [my "enquoten" script](https://codeconscious.github.io/2024/04/02/fsharp-enquoten-script.html).) This one takes in a CSV of labelled dates and calculates (1) how many days have elapsed since and (2) the next thousand-day milestone.
 
-It was a good chance to apply a few things I've learned thus far in this journey. Plus, maybe it's kind of interesting to enter birthdays and see how see, for example, that a friend is coming up on their 15,000th day of life. 😄
+It was a good chance to apply a few things I've learned thus far in this journey. Plus, maybe it's kind of interesting to enter birthdays and see, for example, that a friend is coming up on their 15,000th day of life. 😄
 
 <script src="https://gist.github.com/codeconscious/15b4742a1903d89ac24eef84985488c5.js"></script>
 
