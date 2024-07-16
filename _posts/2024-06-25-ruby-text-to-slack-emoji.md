@@ -7,3 +7,5 @@ Wanting a quick bit of Ruby practice, I took some free time to create a Ruby scr
 I expressly aimed to incorporate anonymous lambda functions. That's from a desire to know them better, of course, but I also feel some influence from my recent experiences with F#.
 
 Recently, I feel like I'm enjoying Ruby more and seeing its strengths. It's definitely a nice scripting language, at the least.
+
+**Update:** I created [an F# version](https://codeconscious.github.io/2024/07/16/fsharp-text-to-slack-emoji.html) as well!
