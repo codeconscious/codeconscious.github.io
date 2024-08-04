@@ -8,7 +8,7 @@ internal enum InputCategory { Url, Command }
 
 (In the future, I might use [a discriminated union](https://codeconscious.github.io/2024/07/30/csharp-type-unions-proposal.html) instead.)
 
-Users can enter inputs of any combination at once. When the user submits their inputs, the program determines the category of each input and places the results in a collection of `CategorizedInput`s:
+Users can enter inputs of any combination at once. When the user submits their inputs, the program determines the `InputCategory` of each input and places the results in a collection of `CategorizedInput`s:
 
 ```cs
 internal record CategorizedInput(string Text, InputCategory Category);
@@ -16,7 +16,7 @@ internal record CategorizedInput(string Text, InputCategory Category);
 
 Additionally, I also generate a key-value pair of the counts of each category. Originally, I used a `Dictionary<InputCategory, int>` for this.
 
-However, there was an issue: When the user entered only one category of inputs—e.g., only URLs and no commands—that meant that the unused category would not be added to the dictionary; yet the program would attempt to access that missing key while counting the occurrences of items of both categories. This caused a `KeyNotFoundException` exception to be thrown.
+However, there was an issue: When the user entered only one category of inputs—e.g., only URLs and no commands—that meant that the unused category would not be added to the dictionary; yet the program would attempt to access that missing `InputCategory` key while counting the occurrences of input of _both_ categories. This caused a `KeyNotFoundException` exception to be thrown.
 
 I felt I needed more behavior than what a plain `Dictionary` could provide, so I settled on a custom class wrapping a `Dictionary`.
 
@@ -48,7 +48,7 @@ internal class CategoryCounts
 }
 ```
 
-However, if I added more input categories at a later date, it would necessitate remembering to add extra conditionals in this constructor, which felt inelegant.
+However, if I added more input categories at a later date, it would necessitate remembering to add extra conditionals in this constructor to avoid runtime exceptions, which felt inelegant.
 
 I then considered a similar approach, instead iterating over the enum values instead of adding them manually:
 
@@ -71,7 +71,7 @@ internal class CategoryCounts
 }
 ```
 
-This approach allievated my concern above, making the constructor more future-proof even if I add more input categories in the future. However, I still felt I was missing something. For one, that public `FrozenDictionary` didn't feel right (though I was glad to try out that new type).
+This approach is better and allievated my concern above, making the constructor more future-proof. However, I still felt I was missing something. For one, that public `FrozenDictionary` didn't feel right (though I was glad to try out that new type).
 
 It was then I realized that I could use indexing to make this far smoother:
 
@@ -92,7 +92,7 @@ internal class CategoryCounts
 }
 ```
 
-Much better! This approach means that I can access the values in the underlying `Dictionary` by using indexing on class instances, like below, and remain confident that a valid value will always be passed.
+Much better! This approach means that I can access the values in the underlying `Dictionary` by using indexing on the surrounding class instances, like below, and remain confident that a valid value will always be passed.
 
 ```cs
 var urlSummary = counts[InputCategory.Url] switch
@@ -103,6 +103,8 @@ var urlSummary = counts[InputCategory.Url] switch
 };
 ```
 
-I think one minor concern of this approach, though, is that instead of a single set operation in the constructor, the `TryGetValue()` conditional is called each time a value is retrieved. For a larger project, that might be a bigger concern, but I don't think it's particularly relevant here. I trust the BCL's performance on this one.
+To be fair, I had to review [the documentation](https://learn.microsoft.com/en-us/dotnet/csharp/indexers#dictionaries) to recall exactly how to do this.
+
+I think one minor concern of this approach, though, is that instead of a single set operation in the constructor, the `TryGetValue()` conditional is called each time a value is retrieved. For a larger project, that might be a bigger concern, but I don't think it's particularly relevant here. I'll trust the BCL's performance on this one.
 
 I enjoy this sort of iterative approach. It's deeply satisfying and enjoyable to watch my code gradually improve like this.
