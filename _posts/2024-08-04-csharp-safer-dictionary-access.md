@@ -92,7 +92,7 @@ internal class CategoryCounts
 }
 ```
 
-Much better! This approach means that I can access the values in the underlying `Dictionary` by using indexing on the surrounding class instances, like below, and remain confident that a valid value will always be passed.
+Much better! This approach means that I can access the values in the underlying `Dictionary` by using indexing on an instance of the wrapping class, like below, and remain confident that a valid value will always be passed.
 
 ```cs
 var urlSummary = counts[InputCategory.Url] switch
@@ -107,4 +107,4 @@ To be fair, I had to review [the documentation](https://learn.microsoft.com/en-u
 
 I think one minor concern of this approach, though, is that instead of a single set operation in the constructor, the `TryGetValue()` conditional is called each time a value is retrieved. For a larger project, that might be a bigger concern, but I don't think it's particularly relevant here. I'll trust the BCL's performance on this one.
 
-I enjoy this sort of iterative approach. It's deeply satisfying and enjoyable to watch my code gradually improve like this.
+I enjoy this sort of iterative approach. It's always so satisfying and enjoyable to watch code I write gradually improve like this.
