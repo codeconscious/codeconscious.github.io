@@ -7,9 +7,9 @@ My latest feature was relatively small, but I nailed the technical implementatio
 I also introduced a couple of new processes for such projects:
 
 1. easy-to-read project summaries and up-to-date status messages in features' Slack channels (which already seems popular with other engineers 😎)
-2. recorded video demos with narration (for obtaining stakeholder approval)
+2. prerecorded video demos with narration (for obtaining stakeholder approval)
 
-In particular, creating a recorded video demo had several benefits:
+In particular, creating a prerecorded video demo had several benefits:
 
 1. helping with final QA checks; and
 2. eliminating the need for a dedicated demo meeting with stakeholders, thus:
@@ -20,4 +20,4 @@ In particular, creating a recorded video demo had several benefits:
 
 I always felt a more asynchronous process there would be beneficial, so I'm glad my initial experiment was successful.
 
-Incidentally, I used [OpenShot Video Editor](https://www.openshot.org) for the recorded demo. It's free, open-source, and cross-platform, and it worked very well for my purposes. This time, I recorded the video and audio separately and then combined them in OpenShot, but I hope to streamline the process soon.
+Incidentally, I used [OpenShot Video Editor](https://www.openshot.org) for the prerecorded demo. It's free, open-source, and cross-platform, and it worked very well for my purposes. This time, I recorded the video and audio separately and then combined them in OpenShot, but I hope to streamline the process soon.
