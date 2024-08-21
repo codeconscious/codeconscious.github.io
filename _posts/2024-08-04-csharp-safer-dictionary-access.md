@@ -14,9 +14,9 @@ Users can enter inputs of any combination at once. When the user submits their i
 internal record CategorizedInput(string Text, InputCategory Category);
 ```
 
-Additionally, I also generate a key-value pair of the counts of each category, and this step is the subject of this post.
+Additionally, I generate a key-value pair of category counts, and this step is the subject of this post.
 
-Originally, I used a `Dictionary<InputCategory, int>` for holding the counts. However, there was an issue with this: When the user entered only one category of inputs—i.e., only URLs and no commands, or vice versa—that meant that the unused category would not be added to the dictionary; yet the program would attempt to access that missing `InputCategory` key while counting the occurrences of input of _both_ categories. This, of course, caused `KeyNotFoundException` exceptions to be thrown.
+Originally, I used a `Dictionary<InputCategory, int>` for holding the counts. However, there was an issue with this: When the user entered only one category of inputs—i.e., only URLs and no commands, or vice versa—that meant that the unused category would not be added to the dictionary; yet the program would attempt to access that missing `InputCategory` key while counting the occurrences of _both_ categories in the input. This, of course, caused `KeyNotFoundException` exceptions to be thrown.
 
 I felt I needed more behavior than what a plain `Dictionary` could provide, so I settled on a custom class wrapping a `Dictionary`.
 
@@ -108,4 +108,4 @@ To be fair, I had to review [the documentation](https://learn.microsoft.com/en-u
 
 I think one minor concern of this approach is that, instead of setting values once in the constructor, the `TryGetValue()` conditional is called each time a value is retrieved. For a larger project, that might be a bigger concern, but I don't think it's particularly relevant here. I'll trust the BCL's performance on this one.
 
-I enjoy this sort of iterative approach. It's always so satisfying and enjoyable to watch code I write gradually improve like this.
+I enjoy this sort of iterative approach of development. It's always so satisfying and enjoyable to watch my code evolve into something better.
