@@ -1,4 +1,4 @@
-# Recursive Random Renaming Redux
+# Recursive Random Resource Renaming Redux
 
 I just couldn't help myself... I recreated [my Ruby script from the other day](https://codeconscious.github.io/2024/09/05/recursive-random-renaming.md.html) as an F# script: [**RecursiveRandomRename.fsx**](https://github.com/codeconscious/scripts/blob/main/fsharp/RecursiveRandomRename.fsx).
 
