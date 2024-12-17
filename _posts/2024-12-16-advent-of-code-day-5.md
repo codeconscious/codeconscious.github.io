@@ -4,7 +4,7 @@ As part of my functional programming studies, I decided to do this year's [**Adv
 
 Though I did so at first, I’m not keeping up with the AoC daily schedule so that I can take my time to learn properly and polish my code (I enjoy refactoring) a bit more than I would otherwise. The point—for me, at least—is to _learn_, not just blaze through as quickly as possible. Plus, it’s an annual event, so there’s plenty of time to finish this year’s puzzles (though I’m unsure that I’ll attempt all of them).
 
-I think [**my solution for Day 6**](https://github.com/codeconscious/advent-of-code/blob/main/2024/fsharp/2024-06.fsx) was a bit of a turning point for me. After I finished the code, I honestly just couldn't stop looking at it for a while. Given how new I am to F#, I doubt that it’s particularly _good_ code, but it felt immensely satisfying to write and, honestly, even read over. I've never written code quite like this, and I've found there’s a certain beauty and efficiency in this style of programming.
+I think [**my solution for Day 6**](https://github.com/codeconscious/advent-of-code/blob/main/2024/fsharp/2024-06.fsx) was a bit of a turning point for me. After I finished the code, I honestly just couldn't stop looking at it for a while. Given how new I am to F#, I doubt that it’s particularly _good_ or idiomatic F# code, but it felt immensely satisfying to write and, honestly, even read over. I've never written code quite like this, and I've found there’s a certain beauty and efficiency in this style of programming.
 
 After comparing my solution to others in more imperative languages, I think I also gained more understanding of the saying that functional programming involves writing code that explains _what_ you want to do, not _how_ to do it.
 
