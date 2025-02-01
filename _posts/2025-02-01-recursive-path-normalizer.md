@@ -10,7 +10,7 @@ For example, take the following Japanese characters: `ボ` and `ボ`, both of wh
 
 For greatest compatibility between Linux and macOS, it seems the NFC form is best.
 
-I've created a new F# script, [**Recursive Path Normalizer**](https://github.com/codeconscious/scripts/blob/main/fsharp/RecursivePathNormalizer.fsx), that recursively normalizes all directory and file names to NFC form within a given path. Of course, there are other ways to do this, such as [convmv](https://www.j3e.de/linux/convmv/man/)¹, but it was a good chance to work with F# again and craft my own solution. (Plus, I adapted a chunk of code from my previous random-name script, which gave me a quick start.)
+I've created a new F# script, [**Recursive Path Normalizer**](https://github.com/codeconscious/scripts/blob/main/fsharp/RecursivePathNormalizer.fsx), that recursively normalizes all directory and file names to NFC form within a given path. Of course, there are other ways to do this, such as [convmv](https://www.j3e.de/linux/convmv/man/)¹, but it was a good chance to work with F# again and craft my own solution. (I adapted a chunk of code from my previous random-name script, which gave me a quick start. I also incorporated [Startwatch](https://codeconscious.github.io/2024/01/08/first-nuget-package.html) as a timer.)
 
 I'm still keeping an eye on things, but this seems to have resolved my copying problem. ✌️
 
