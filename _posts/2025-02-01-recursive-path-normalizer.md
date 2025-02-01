@@ -27,3 +27,4 @@ References and other helpful links:
 - HackTricks: [Unicode Normalization](https://book.hacktricks.wiki/en/pentesting-web/unicode-injection/unicode-normalization.html)
 - monokano: [Unicodeの特殊な文字 “結合文字列”](https://tama-san.com/combining_character_sequence/)
 - Jugesuke: [あなたの知らない UTF-8 の世界](https://zenn.dev/jugesuke/articles/e3b92518e21698)
+- [Character Code Finder](https://www.mauvecloud.net/charsets/CharCodeFinder.html)
