@@ -1,4 +1,4 @@
-# Script: Recursive Path Normalizer
+# Unicode Normalization Forms and Recursive Path Normalizer (F# Script)
 
 I wrote previously about how, when attempting to copy a large batch of files from my Linux laptop to my M1 MacBook Pro, many files with Japanese filenames failed to copy until I renamed them. As a temporary workaround (and as a programming exercise), I created scripts in both [Ruby](https://codeconscious.github.io/2024/09/05/recursive-random-renaming.html) and [F#](https://codeconscious.github.io/2024/09/11/recursive-random-renaming-redux.html) to randomize their names (since the names were not particularly significant).
 
@@ -16,11 +16,11 @@ I'm still keeping an eye on things, but this seems to have resolved my copying p
 
 ---
 
-¹ For example, conversion to NFC can be done via `convmv -r -f utf8 -t utf8 --nfc --notest .`.
+¹ Conversion to NFC can be done thusly: `convmv -r -f utf8 -t utf8 --nfc --notest .`.
 
 ---
 
-Helpful links:
+References and other helpful links:
 - Unicode.org: [Unicode Normalization Forms](https://unicode.org/reports/tr15/)
 - Wikipedia: [Unicode equivalence](https://en.wikipedia.org/wiki/Unicode_equivalence) ([日本語](https://ja.wikipedia.org/wiki/Unicode%E3%81%AE%E7%AD%89%E4%BE%A1%E6%80%A7))
 - Nicolas Bouliane: [File names, unicode normalization problems, and how to fix them](https://nicolasbouliane.com/blog/unicode-normalization)
