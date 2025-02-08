@@ -12,4 +12,6 @@ I'd like to share some advice for creating programming-related articles and vide
 
 1. **Highlight relevant text in larger snippets.** Providing code snippets that are longer than strictly necessary can be useful for showing readers the surrounding context of relevant lines. However, it can easily lead to confusion about what is and isn't directly relevant to your point. Consider adding text comments or formatting to make the most relevant text and lines stand out.
 
+1. **Be thorough.** Don't leave steps out, even minor or seemingly obvious ones. Show the expected output of recommended commands. If you know that a command might throw errors, then where possible show them and explain why they occur and how to resolve them.
+
 (Note: I might add items to this list occasionally.)
