@@ -1,11 +1,13 @@
 # Regex: Extract messages from Rails logs
 
-Today, I wanted to extract only the `message` fields from JSON-formatted Ruby on Rails logs in my terminal. This regular expression that I created helped me accomplish this easily:
+Today, I wanted to extract only the `message` fields from JSON-formatted Ruby on Rails logs in my terminal.
+
+So, I created this simple regular expression to accomplish this easily using a lookahead and lookbehind:
 
 ```
 ^.*,(?="message")|(?<="message":".*").*
 ```
 
-Copying and pasting the relevant logs into VS Code, then replacing all the text matched by this regex did the trick.
+Copying and pasting the relevant logs into VS Code and then replacing all text matched by this regex did the trick.
 
 Ain't regex fun? ^_^
