@@ -30,6 +30,12 @@ OK: hi --> A̰Ả --> HI
 OK: how neat! --> A̰ÅȀ ÂÁAĀ! --> HOW NEAT!
 ```
 
+## StringInfo.SubstringByTextElements method
+
+Through this exercise, I learned about [the StringInfo.SubstringByTextElements method in the System.Globalization namespace](https://learn.microsoft.com/en-us/dotnet/api/system.globalization.stringinfo.substringbytextelements?view=net-9.0). It was necessary for properly iterating over encoded Unicode composed characters, instead of their composite parts, when decoding.
+
+You can read a bit more about Unicode normalization in my recently post "[Unicode Normalization Forms and Recursive Path Normalizer (F# Script)](https://codeconscious.github.io/2025/02/01/recursive-path-normalizer.html)."
+
 ## Argument issue
 
 I experienced one fascinating issue while setting up argument validation.
