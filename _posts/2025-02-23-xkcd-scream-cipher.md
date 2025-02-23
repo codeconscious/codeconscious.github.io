@@ -24,6 +24,7 @@ HELLO
 
 ```sh
 # `--test` confirms there are no conversion issues with the given string(s).
+# The comparison is case-insensitive.
 $ dfsi fsharp/XkcdScreamCipher.fsx --test "hello" "hi" "how neat\!" 123
 OK: hello --> A̰ÁĂĂÅ --> HELLO
 OK: hi --> A̰Ả --> HI
