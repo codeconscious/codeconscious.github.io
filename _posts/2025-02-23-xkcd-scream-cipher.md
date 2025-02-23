@@ -23,7 +23,7 @@ HELLO
 ```
 
 ```sh
-# `--test` allows you to confirm there are no conversion issues with the given string(s).
+# `--test` confirms there are no conversion issues with the given string(s).
 $ dfsi fsharp/XkcdScreamCipher.fsx --test "hello" "hi" "how neat\!" 123
 OK: hello --> A̰ÁĂĂÅ --> HELLO
 OK: hi --> A̰Ả --> HI
@@ -36,7 +36,7 @@ I experienced one fascinating issue while setting up argument validation.
 
 I had originally intended to allow `-d` as an argument to indicate that the provided input should be decoded back to standard letters. However, when examining the arguments during validation, `-d` would always be combined with the following argument. (For example, if I passed `-d "A̰ÁĂĂÅ"`, the first argument would be `-d:A̰ÁĂĂÅ` during runtime, which led to spurious validation failures.)
 
-I was pretty confused until I came across an issue on the official F# repository entitled "[fsi.CommandLineArgs different behavior on -d/-r/-I args, ignores --](https://github.com/dotnet/fsharp/issues/10819)", which confirmed it was a bug and why it occurs.
+I was pretty confused until I came across an issue on the official F# repository entitled "[fsi.CommandLineArgs different behavior on -d/-r/-I args, ignores --](https://github.com/dotnet/fsharp/issues/10819)," which confirmed it as a bug and explained why it occurs.
 
-I'm glad I came across that issue! I might have to figure out what I want to do a workaround.
+I'm glad I came across that issue! I might have to figure out what I want to do as a workaround for that.
 
