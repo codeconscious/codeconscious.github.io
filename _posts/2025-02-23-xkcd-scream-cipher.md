@@ -13,12 +13,12 @@ It was fun to make! I perhaps went a wee bit overboard for what's essentially a 
 Here are some usage examples. Note that `dfsi` is my alias for `dotnet fsi`.
 
 ```sh
-$ dfsi fsharp/XkcdScreamCipher.fsx --encode "hello"                                          
+$ dfsi fsharp/XkcdScreamCipher.fsx --encode "hello"
 A̰ÁĂĂÅ
 ```
 
 ```sh
-$ dfsi fsharp/XkcdScreamCipher.fsx --decode A̰ÁĂĂÅ  
+$ dfsi fsharp/XkcdScreamCipher.fsx --decode A̰ÁĂĂÅ
 HELLO
 ```
 
