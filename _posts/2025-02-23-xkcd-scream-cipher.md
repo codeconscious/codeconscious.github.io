@@ -35,7 +35,7 @@ OK: 123 --> 123 --> 123
 
 Through this exercise, I learned about [the StringInfo.SubstringByTextElements method in the System.Globalization namespace](https://learn.microsoft.com/en-us/dotnet/api/system.globalization.stringinfo.substringbytextelements?view=net-9.0). It was necessary for properly iterating over encoded Unicode composed characters, instead of their composite parts, when decoding.
 
-You can read a bit more about Unicode normalization in my recently post "[Unicode Normalization Forms and Recursive Path Normalizer (F# Script)](https://codeconscious.github.io/2025/02/01/recursive-path-normalizer.html)."
+You can read a bit more about Unicode normalization in my recent post "[Unicode Normalization Forms and Recursive Path Normalizer (F# Script)](https://codeconscious.github.io/2025/02/01/recursive-path-normalizer.html)."
 
 ## Argument issue
 
@@ -45,5 +45,5 @@ I had originally intended to allow `-d` as an argument to indicate that the prov
 
 I was pretty confused until I came across an issue on the official F# repository entitled "[fsi.CommandLineArgs different behavior on -d/-r/-I args, ignores --](https://github.com/dotnet/fsharp/issues/10819)," which confirmed it as a bug and explained why it occurs.
 
-I'm glad I came across that issue! I might have to figure out what I want to do as a workaround for that.
+I'm glad I came across that issue! I might have to figure out what I want to do as a workaround for that, though it's hardly a big deal either way.
 
