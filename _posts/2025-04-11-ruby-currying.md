@@ -27,6 +27,11 @@ has_a.("Is that so?") # true
 text_has = -> (source, find) { source.include? find }.curry.('hello world')
 text_has.('a') # false
 text_has.('e') # true
+
+has_a_or_b = -> (find1, find2, source) { source.include?(find1) || source.include?(find2) }.curry.('a', 'b')
+has_a_or_b.('aardvark') # true
+has_a_or_b.('cat') # true
+has_a_or_b.('dog') # false
 ```
 
 ## Using lambdas in methods
