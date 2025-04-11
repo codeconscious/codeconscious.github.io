@@ -4,7 +4,7 @@ In looking a bit into functional programming in Ruby, I was surprised to learn r
 
 Here are some examples:
 
-## Option 1: `.curry`
+## Using the 'curry' method
 
 ```rb
 # Via methods
@@ -29,7 +29,7 @@ text_has.('a') # false
 text_has.('e') # true
 ```
 
-## Option 2: `lambda` in methods
+## Using lambdas in methods
 
 ```rb
 def multiply(m); lambda { |n| n * m }; end
@@ -40,3 +40,5 @@ triple = multiply(3)
 double[5] # 10
 triple.(5) # 15
 ```
+
+(Note that this is not intended to be an exhaustive list of ways to curry.)
