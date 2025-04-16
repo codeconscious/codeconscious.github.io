@@ -4,27 +4,27 @@ Popular webcomic [xkcd](https://xkcd.com) posted a comic ([#3054](https://xkcd.c
 
 I briefly debated whether to build it in Ruby (which I use at work) or F#, but I yet again couldn't resist the allure of F# for this. Along with being more enjoyable to work in, I appreciate how F# (and, presumably, other functional languages) makes it suitably easy to write satisfyingly robust code. (Aside: I'm pretty surprised that C# wasn't even in this equation, given that it's been my go-to language for years until recently.)
 
-My implementation is in my scripts repo: [**XkcdScreamCipher.fsx**](https://github.com/codeconscious/scripts/blob/main/fsharp/XkcdScreamCipher.fsx).
+I've created a small repo: **[xkcd-scream-cipher](https://github.com/codeconscious/xkcd-scream-cipher)**.
 
-It was fun to make! I perhaps went a wee bit overboard for what's essentially a throwaway script, but part of the reason for the exercise at all is to enjoy myself. ☺️
+It was fun to make! I perhaps went a wee bit overboard, but part of the reason for the exercise at all is to enjoy myself. ☺️
 
 ## Usage examples
 
-Here are some usage examples. Note that `dfsi` is my alias for `dotnet fsi`.
+Here are some usage examples:
 
 ```sh
-$ dfsi fsharp/XkcdScreamCipher.fsx --encode "hello"
+$ dotnet run -- --encode "hello"
 A̰ÁĂĂÅ
 ```
 
 ```sh
-$ dfsi fsharp/XkcdScreamCipher.fsx --decode A̰ÁĂĂÅ
+$ dotnet run -- --decode A̰ÁĂĂÅ
 HELLO
 ```
 
 ```sh
 # `--test` confirms there are no conversion issues with the given string(s).
-$ dfsi fsharp/XkcdScreamCipher.fsx --test "hello" "hi" "how neat\!" 123
+$ dotnet run -- --test "hello" "hi" "how neat\!" 123
 OK: HELLO --> A̰ÁĂĂÅ --> HELLO
 OK: HI --> A̰Ả --> HI
 OK: HOW NEAT! --> A̰ÅȀ ÂÁAĀ! --> HOW NEAT!
@@ -46,4 +46,3 @@ I had originally intended to allow `-d` as an argument to indicate that the prov
 I was pretty confused until I came across an issue on the official F# repository entitled "[fsi.CommandLineArgs different behavior on -d/-r/-I args, ignores --](https://github.com/dotnet/fsharp/issues/10819)," which confirmed it as a bug and explained why it occurs.
 
 I'm glad I came across that issue! I might have to figure out what I want to do as a workaround for that, though it's hardly a big deal either way.
-
