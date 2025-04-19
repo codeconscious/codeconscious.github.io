@@ -4,9 +4,9 @@ Popular webcomic [xkcd](https://xkcd.com) posted a comic ([#3054](https://xkcd.c
 
 I briefly debated whether to build it in Ruby (which I use at work) or F#, but I yet again couldn't resist the allure of F# for this. Along with being more enjoyable to work in, I appreciate how F# (and, presumably, other functional languages) makes it suitably easy to write satisfyingly robust code. (Aside: I'm pretty surprised that C# wasn't even in this equation, given that it's been my go-to language for years until recently.)
 
-I've created a small repo: **[xkcd-scream-cipher](https://github.com/codeconscious/xkcd-scream-cipher)**.
+I've created a small repo: **[codeconscious/xkcd-scream-cipher](https://github.com/codeconscious/xkcd-scream-cipher)**.
 
-It was fun to make! I perhaps went a wee bit overboard, but part of the reason for the exercise at all is to enjoy myself. ☺️
+It was fun to make! I perhaps went a wee bit overboard for what it is, but part of the reason for the exercise at all is to enjoy myself. ☺️
 
 ## Usage examples
 
@@ -37,9 +37,9 @@ Through this exercise, I learned about [the StringInfo.SubstringByTextElements m
 
 You can read a bit more about Unicode normalization in my recent post "[Unicode Normalization Forms and Recursive Path Normalizer (F# Script)](https://codeconscious.github.io/2025/02/01/recursive-path-normalizer.html)."
 
-## Argument issue
+## Argument issue in F# scripts
 
-I experienced one fascinating issue while setting up argument validation.
+The original version of this tool was [an F# script](https://github.com/codeconscious/scripts/blob/f71ef590fbe7a0eb3d3f6d12ab6064f95c14a0b3/fsharp/XkcdScreamCipher.fsx), and I experienced one fascinating script-related issue while setting up argument validation.
 
 I had originally intended to allow `-d` as an argument to indicate that the provided input should be decoded back to standard letters. However, when examining the arguments during validation, `-d` would always be combined with the following argument. (For example, if I passed `-d "A̰ÁĂĂÅ"`, the first argument would be `-d:A̰ÁĂĂÅ` during runtime, which led to spurious validation failures.)
 
