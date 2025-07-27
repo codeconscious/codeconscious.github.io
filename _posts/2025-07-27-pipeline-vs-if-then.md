@@ -53,3 +53,14 @@ let title =
 ```
 
 Lovely. For me, this simple quasi–real life example did a good job of demonstrating the advantage of the pipeline version. I'll be keeping that code as it is.
+
+**Edit:** Oh, another promising option:
+
+```fsharp
+let title'' =
+    match fileTags.Title with
+    | null  -> String.Empty
+    | title -> title.Normalize()
+```
+
+Pattern matching seems like another reasonable and safe way to handle this. I might go with this instead.
