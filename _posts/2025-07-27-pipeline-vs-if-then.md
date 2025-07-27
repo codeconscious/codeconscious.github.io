@@ -1,6 +1,6 @@
 # Option Pipeline Vs. If-Then
 
-This morning, I happened to glance at this block of code in [my Audio Tag Tools repo](https://github.com/codeconscious/audio-tag-tools/):
+This morning, I happened to glance at this block of F# code in [my Audio Tag Tools repo](https://github.com/codeconscious/audio-tag-tools/):
 
 ```fsharp
 let title =
@@ -9,6 +9,8 @@ let title =
     |> Option.map _.Normalize()
     |> Option.defaultValue String.Empty
 ```
+
+_Syntax note:_ `_.Normalize()` is [fairly new syntax introduced in F# 8](https://devblogs.microsoft.com/dotnet/announcing-fsharp-8/#_.property-shorthand-for-(fun-x--%3E-x.property)) and is short for `fun x -> x.Normalize()`.
 
 I wondered offhand if, in this case, there was any real benefit to using the `Option` type functions in a pipeline like this.
 
