@@ -10,7 +10,7 @@ let title =
     |> Option.defaultValue String.Empty
 ```
 
-I wondered offhand if, in this case, there was any real benefit to using the `Option` type methods in a pipeline like this.
+I wondered offhand if, in this case, there was any real benefit to using the `Option` type functions in a pipeline like this.
 
 So, as an experiment, I rewrote it using if-then syntax:
 
