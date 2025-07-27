@@ -65,4 +65,4 @@ let title'' =
     | title -> title.Normalize()
 ```
 
-Pattern matching seems like another reasonable and safe way to handle this. I might go with this instead.
+Pattern matching seems like another reasonable and safe way to handle this. I completely forgot that you can pattern match on `null` like this, and I might go with this instead.
