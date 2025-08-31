@@ -30,7 +30,7 @@ Until I spotted the bug I introduced. Did you catch it? (If not, have another lo
 
 As you've noticed, I'd inadvertently switched the expressions to return, thus breaking the logic and carelessly introducing a bug that could have resulted in an unslightly runtime error. (To be fair, I wasn't concentrating on this. At least I noticed it right away. 😅)
 
-The correct code, of course, should look like this:
+The correct code, of course, should look more like this:
 
 ```fsharp
 let title' =
@@ -38,6 +38,16 @@ let title' =
     if title <> null
     then title.Normalize()
     else String.Empty
+```
+
+Or this:
+
+```fsharp
+let title' =
+    let title = fileTags.Title
+    if title = null
+    then String.Empty
+    else title.Normalize()
 ```
 
 I tried introducing a similar bug in the pipeline version, but because it results in passing incorrect types to its functions, it doesn't even compile, thus preventing that bug altogether:
