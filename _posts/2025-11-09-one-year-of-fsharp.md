@@ -8,4 +8,4 @@ I think many people (including me in the recent past) assume that FP has a much 
 
 What’s next? I’ve also dug into Haskell and OCaml a little too. F# is great, but I’d like to know more about those languages’ more powerful type systems too. I’m still unsure which, if either, I'll focus on, though.
 
-My opinion: Every software engineer should spend some time with a FP language—and if you’re already a .NET engineer, F# is the obvious choice. Whether or not you decide to stick with it, I feel confident you’ll come away a better software engineer.
+My opinion: Every software engineer should spend some time with a functional-first FP language—and if you’re already a .NET engineer, F# is the obvious choice. Whether or not you decide to stick with it, I feel confident you’ll come away a better software engineer.
