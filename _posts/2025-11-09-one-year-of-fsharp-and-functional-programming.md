@@ -1,8 +1,8 @@
-# One Year of F#
+# One Year of F# and Functional Programming
 
-It’s already been about a year since I started learning F#. Perhaps a small update is in order.
+It’s already been about a year since I started learning F# and functional programming (FP). Perhaps a small update is in order.
 
-I think it’s fair to say that F# and the functional programming (FP) paradigm have rejuvenated my passion for programming. The relative elegance, clarity, and power of FP are refreshing and fascinating, and it’s immensely satisfying to write FP code. I never would have expected F# to take my “favorite language” crown from C#, but it has.
+I think it’s fair to say that F# and the FP paradigm have rejuvenated my passion for programming. The relative elegance, clarity, and power of FP are refreshing and fascinating, and it’s immensely satisfying to write FP code. I never would have expected F# to take my “favorite language” crown from C#, but it has.
 
 I think many people (including me in the recent past) assume that FP has a much higher barrier to entry than it has. Of course, there are some new (and interesting!) things to learn, but I’ve found that just diving in and learning concepts as I go is sufficient to get started, be productive, and have fun.
 
