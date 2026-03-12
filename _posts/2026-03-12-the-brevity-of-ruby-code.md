@@ -1,4 +1,4 @@
-# The Brevity of Ruby Code
+# On The Brevity of Ruby Code
 
 Today at work, I wanted to create a small script to reduce multiline strings to single-line ones with `\n` as a separator.
 
@@ -11,8 +11,7 @@ open CCFSharpUtils.Library
 open System.Diagnostics
 
 let readClipboard () =
-    let psi = ProcessStartInfo(
-        "pbpaste",
+    let psi = ProcessStartInfo("pbpaste",
         RedirectStandardOutput = true,
         UseShellExecute = false)
     use p = Process.Start psi
@@ -36,4 +35,4 @@ puts `pbpaste`
 
 That's a striking difference! I feel it highlights Ruby's strength as a scripting language. For much larger, more complicated scripts (and certainly for actual non-script projects), I would still generally choose F# in most cases, but this reiterated to me how Ruby's brevity makes it a great choice for smaller scripts like this.
 
-(Note: This code likely only works on macOS because it leverages its `[pbpaste](https://ss64.com/mac/pbpaste.html)` command.)
+(Note: This code likely only works on macOS because it leverages its [`pbpaste`](https://ss64.com/mac/pbpaste.html) command.)
