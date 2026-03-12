@@ -1,6 +1,6 @@
 # AI Article Roundup: Late 2025
 
-I've gotten into the habit of logging links to AI-related articles and papers I found interesting, and I'm thinking I'll post lists of them from time to time.
+AI has proven quite disruptive to the industry, as expected. In recent months, I've gotten into the habit of logging links to AI-related articles and papers I found interesting, and I'm thinking I'll share lists of them from time to time.
 
 With that, my late-2025 batch:
 
