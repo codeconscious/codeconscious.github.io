@@ -33,6 +33,8 @@ puts `pbpaste`
         .join("\\n")
 ```
 
-That's a striking difference! I feel it highlights Ruby's strength as a scripting language. For much larger, more complicated scripts (and certainly for actual non-script projects), I would still generally choose F# in most cases, but this reiterated to me how Ruby's brevity makes it a great choice for smaller scripts like this.
+That's a striking difference! That `pbpaste` line is pretty slick.
+
+I feel this highlights Ruby's strength as a scripting language. For much larger scripts (and certainly for actual non-script projects), I would choose F# or another statically typed language (because brevity isn't _everything_), but this helped me appreciate Ruby's brevity anew and reiterated to me how it's a natural choice for smaller scripts like this.
 
 (Note: This code likely only works on macOS because it leverages its [`pbpaste`](https://ss64.com/mac/pbpaste.html) command.)
