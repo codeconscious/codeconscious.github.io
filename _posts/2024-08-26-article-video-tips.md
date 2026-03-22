@@ -12,10 +12,12 @@ I'd like to share some advice for creating programming-related articles and vide
 
 1. **Ensure code snippets work.** In generally, code snippets should be copy-and-pasteable. It can be quite frustrating, for example, when you are trying to learn a new language, but the example code from an article results in unexpected errors of some sort when you try to run it locally. Where appropriate, consider adding instructions for use (and test them yourself to verify).
 
+1. **Anticipate errors where possible.** If you know that running a code snippet might lead to certain errors, consider mentioning those errors and how to resolve them upfront.
+
 1. **Highlight relevant text in larger snippets.** Providing code snippets that are longer than strictly necessary can be useful for showing readers the surrounding context of relevant lines. However, it can easily lead to confusion about what is and isn't directly relevant to your point. Consider adding text comments or formatting to make the most relevant text and lines stand out.
 
 1. **Be thorough.** Don't leave steps out, even minor or seemingly obvious ones. Show (or at least describe) the expected output of recommended commands. If you know that a command might throw errors, then where possible show them and explain why they occur and how to resolve them.
 
 1. **Avoid bloat.** One example I hear in videos fairly often is "What I'm going to do is, I'm going to..." It can be difficult to avoid such colloqualisms completely, but it's worth trying to be cognizant of your usage in order to better avoid them.
 
-Last updated: April 2025
+Last updated: March 2026
