@@ -18,9 +18,9 @@ let readClipboard () =
     p.StandardOutput.ReadToEnd().TrimEnd()
 
 readClipboard ()
-|> _.Split(String.newLine)
+|> _.Split(String.nl)
 |> Array.map String.trim
-|> String.concat String.newLine
+|> String.concat String.nl
 |> printfn "%s"
 ```
 
@@ -33,7 +33,7 @@ puts `pbpaste`
         .join("\\n")
 ```
 
-I must admit, that's a striking difference! That `pbpaste` line is pretty slick. (To be fair, the F# could be shortened some too, such as using `\n` directly instead of `String.newLine`, which is just my own alias for [`Environment.NewLine`](https://learn.microsoft.com/en-us/dotnet/api/system.environment.newline).)
+I must admit, that's a striking difference! That `pbpaste` line is pretty slick. (To be fair, the F# could be shortened some too, such as using `\n` directly instead of `String.nl`, which is just my own alias for [`Environment.NewLine`](https://learn.microsoft.com/en-us/dotnet/api/system.environment.newline).)
 
 I feel this highlights Ruby's strength as a scripting language. For much larger scripts (and certainly for actual non-script projects), I would choose F# or another statically typed language (because brevity isn't _everything_), but this helped me appreciate Ruby's brevity anew and reiterated to me how it's a natural choice for smaller scripts like this.
 
