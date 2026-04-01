@@ -2,7 +2,7 @@
 
 Following closely after [my recent first edition](https://codeconscious.github.io/2026/03/11/ai-article-roundup-2025.html), here's my second.
 
-I've recently been given LLM access at work, though fortunately with no particular minimum usage decree (yet). After initial trepidation about LLMs, I can say that I'm starting to better understand their appeal and some of their limitations. In particular, it's making working with Ruby on Rails much more pleasant and productive, which I definitely appreciate. Caution is necessary, and you must check LLMs' work; however, they indeed seem to be a great additional tool in engineer's toolbelts.
+I've recently been given LLM access at work, though fortunately with no particular minimum usage decree (yet). After initial trepidation about LLMs, I can say that I'm starting to better understand their appeal and some of their limitations. In particular, it's making working with Ruby on Rails much more pleasant and productive, which I definitely appreciate. Caution is necessary: you must check LLMs' work, as they are not nearly as trustworthy a partner as a compiler is. However, they indeed are a great additional tool in engineers' toolbelts. I look forward to digging in more at work.
 
 The articles follow. Please keep in mind that I am not presenting them because I necessarily agree with everything in them. They simply represent information that I felt was interesting or helpful at the time that I noted the article.
 
