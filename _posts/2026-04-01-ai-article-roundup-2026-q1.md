@@ -1,8 +1,8 @@
 # AI Article Roundup: 2026 Q1
 
-Following closely after [my recent first edition](https://codeconscious.github.io/2026/03/11/ai-article-roundup-2025.html), here's my second.
+Following closely after [my recent first edition](https://codeconscious.github.io/2026/03/11/ai-article-roundup-2025.html), here's my second. I might do this quarterly.
 
-I've recently been given LLM access at work, though fortunately with no particular minimum usage decree (yet). After initial trepidation about LLMs, I can say that I'm starting to better understand their appeal and some of their limitations. In particular, it's making working with Ruby on Rails much more pleasant and productive, which I definitely appreciate. Caution is necessary: you must check LLMs' work, as they are not nearly as trustworthy a partner as a compiler is. However, they indeed are a great additional tool in engineers' toolbelts. I look forward to digging in more at work.
+I've recently been given LLM access at work, though fortunately with no particular minimum usage decree (yet). After initial trepidation about LLMs, I can say that I'm starting to better understand their appeal and some of their limitations. In particular, it's making working with Ruby on Rails much more pleasant and productive, which I definitely appreciate. Caution is clearly necessary: you must check LLMs' work, as they are not nearly as trustworthy a partner as a compiler is. However, they indeed are a great additional tool in engineers' toolbelts. I look forward to digging in more at work.
 
 The articles follow. Please keep in mind that I am not presenting them because I necessarily agree with everything in them. They simply represent information that I felt was interesting or helpful at the time that I noted the article.
 
@@ -19,7 +19,7 @@ The articles follow. Please keep in mind that I am not presenting them because I
 1. [ChatGPT Is a Blurry JPEG of the Web: OpenAI’s chatbot offers paraphrases, whereas Google offers quotes. Which do we prefer?](https://archive.md/WsoFx#selection-621.0-627.86) (Archive)
 1. [AI Makes the Easy Part Easier and the Hard Part Harder](https://www.blundergoat.com/articles/ai-makes-the-easy-part-easier-and-the-hard-part-harder) + [Reddit](https://www.reddit.com/r/ExperiencedDevs/comments/1r00z4q/ai_makes_the_easy_part_easier_and_the_hard_part/)
 1. [AI Coding Killed My Flow State](https://itnext.io/ai-coding-killed-my-flow-state-54b60354be1d) + [Reddit](https://www.reddit.com/r/programming/comments/1r2l8i5/ai_coding_killed_my_flow_state/)
-1. **[An AI Agent Published a Hit Piece on Me](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)**
+1. [An AI Agent Published a Hit Piece on Me](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
 1. [Twitter post about the actual AI situation](https://x.com/thdxr/status/2022574719694758147#m) + [Reddit](https://old.reddit.com/r/ExperiencedDevs/comments/1r6olcv/an_ai_ceo_finally_said_something_honest/)
 1. [Amazon service was taken down by AI coding bot (December outage)](https://www.reddit.com/r/programming/comments/1r9nhsx/amazon_service_was_taken_down_by_ai_coding_bot/o6dlu10/) (Article copy in Reddit comment)
 1. [Agentic Debt](https://neilkakkar.com/agentic-debt.html)
