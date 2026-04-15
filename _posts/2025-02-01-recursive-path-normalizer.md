@@ -4,7 +4,7 @@ I wrote previously about how, when attempting to copy a large batch of files fro
 
 I recently returned to this issue and discovered that the underlying issue was as I'd expected: Unicode normalization issues between OSes.
 
-For example, take the following Japanese characters: `ボ` and `ボ`, both of which represent the sound "bo" in Japanese using its katakana script. They appear identical, but their compositions are actually completely different:
+For example, take the following Japanese characters: `ボ` and `ボ`, both of which represent the sound "bo" in Japanese using its katakana script. They appear identical, but their compositions are actually quite different:
 - The former is a single "composed" code point, [0x30dc](https://www.compart.com/en/unicode/U+30DC), which represents the entire character as seen and is an example of NFC (Normalization Form Canonical Composition)
 - The latter is a combination of the "decomposed" code points `ホ` ([0x30db](https://www.compart.com/en/unicode/U+30db)) and `◌゙` ([0x3099](https://www.compart.com/en/unicode/U+3099)) and is an example of NFD (Normalization Form Canonical Decomposition)
 
