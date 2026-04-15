@@ -7,4 +7,4 @@ Today, I happened to learn how this is done in Ruby from a coworker's pull reque
 => false
 ```
 
-Documentation: https://apidock.com/ruby/v2_5_5/String/unicode_normalize
+Documentation: [https://apidock.com/ruby/v2_5_5/String/unicode_normalize](https://apidock.com/ruby/v2_5_5/String/unicode_normalize)
