@@ -10,7 +10,9 @@ I'd like to share some advice for creating programming-related articles and vide
 
 1. **Check code snippet width**. I've encountered several sites in which code snippets' widths exceeded the width of their article containers, meaning users must scroll horizontally for each such snippet. Avoid this by reviewing the actual published article, including at lower resolutions, and updating the snippets if necessary. Check on desktop and mobile devices as possible. (If you ever redesign your site, I'd recommended verifying that your updated design has not introduced this issue.)
 
-1. **Ensure code snippets work.** In generally, code snippets should be copy-and-pasteable. It can be quite frustrating, for example, when you are trying to learn a new language, but the example code from an article results in unexpected errors of some sort when you try to run it locally. Where appropriate, consider adding instructions for use (and test them yourself to verify).
+1. **Show the final version of code.** If you've been sharing code one snippet at a time (as in a tutorial or code breakdown), readers would certainly appreciate seeing the entire code block at the end (or even upfront the beginning). That makes copying and pasting it must easier too.
+
+1. **Ensure code snippets work.** In generally, code snippets should be copy-and-pasteable. It can be quite frustrating, for example, when you are trying to learn a new language, but the example code from an article results in unexpected errors of some sort when you try to run it locally. (Don't forget to note `open`s and `imports` too.) Where appropriate, consider adding instructions for use and test them yourself to verify.
 
 1. **Anticipate errors where possible.** If you know that running a code snippet might lead to certain errors, consider mentioning those errors and how to resolve them upfront.
 
@@ -20,4 +22,4 @@ I'd like to share some advice for creating programming-related articles and vide
 
 1. **Avoid bloat.** One example I hear in videos fairly often is "What I'm going to do is, I'm going to..." It can be difficult to avoid such colloqualisms completely, but it's worth trying to be cognizant of your usage in order to better avoid them.
 
-Last updated: March 2026
+Last updated: April 2026
