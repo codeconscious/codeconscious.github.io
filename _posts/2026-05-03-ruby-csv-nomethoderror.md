@@ -1,4 +1,4 @@
-# Ruby: Resolving `NoMethodError - undefined method 'collect'` errors during CSV creation
+# Ruby: Resolving `NoMethodError - undefined method 'collect'` error during CSV creation
 
 I had the following Ruby code:
 
