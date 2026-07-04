@@ -1,6 +1,8 @@
 # AI Article Roundup: 2026 Q2
 
-Welcome to my latest list of AI-related links, similar to [my Q1 list](https://codeconscious.github.io/2026/04/01/ai-article-roundup-2026-q1.html) and other ones. This is the first edition in which I'm including videos and discussions that I found interesting as well.
+Welcome to my latest list of AI-related links, similar to [my Q1 list](https://codeconscious.github.io/2026/04/01/ai-article-roundup-2026-q1.html) and other ones. This is the first edition in which I'm including videos, discussions, and quotations that I found interesting as well.
+
+It's been interesting seeing engineers' various reactions to the spread of AI online. Some seems obstinately against it in any fashion; others seem a bit obsessive about using it for everything everywhere at all times. It's going to be interesting to see how it plays out over time. AI will certainly not disappear. It's a great additional tool, but I'm not all for sinking all resources into it, especially at this early stage in its availability. While I'm happy to use it at work (and I increasingly do), I still aim to limit its use in personal development to keep it interesting, educational, and satisfying.
 
 Disclaimer: Each link simply represents information that I felt was interesting or helpful at the time that I noted it. A link's inclusion does not necessarily indicate agreement with its contents.
 
@@ -37,7 +39,7 @@ Disclaimer: Each link simply represents information that I felt was interesting 
 2. [Things I used to be proud of doing well - Modern AI just does better](https://old.reddit.com/r/ExperiencedDevs/comments/1tbz4jc/things_i_used_to_be_proud_of_doing_well_modern_ai/)
 3. [How to manage the tradeoff between mental model and speed when building with AI?](https://www.reddit.com/r/ExperiencedDevs/comments/1ui2ruf/how_to_manage_the_tradeoff_between_mental_model/)
 
-## Quotes
+## Quotations
 
 > I know someone whose CEO was rolling out a new internal process and rather than simply having a meeting to explain the whole thing, he created a fake AI podcast where fake AI people discuss the new process. ([Reddit](https://old.reddit.com/r/ExperiencedDevs/comments/1u2dqmp/did_the_ai_hype_cycle_damage_your_relationship/oqx14op/))
 
