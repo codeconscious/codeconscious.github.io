@@ -36,3 +36,9 @@ Disclaimer: Each link simply represents information that I felt was interesting 
 1. [Clients sending me AI snippets](https://old.reddit.com/r/webdev/comments/1sryuw2/clients_sending_me_ai_snippets/)
 2. [Things I used to be proud of doing well - Modern AI just does better](https://old.reddit.com/r/ExperiencedDevs/comments/1tbz4jc/things_i_used_to_be_proud_of_doing_well_modern_ai/)
 3. [How to manage the tradeoff between mental model and speed when building with AI?](https://www.reddit.com/r/ExperiencedDevs/comments/1ui2ruf/how_to_manage_the_tradeoff_between_mental_model/)
+
+## Quotes
+
+> I know someone whose CEO was rolling out a new internal process and rather than simply having a meeting to explain the whole thing, he created a fake AI podcast where fake AI people discuss the new process. ([Reddit](https://old.reddit.com/r/ExperiencedDevs/comments/1u2dqmp/did_the_ai_hype_cycle_damage_your_relationship/oqx14op/))
+
+> Our job was never to write code, it was to solve people's problems.
