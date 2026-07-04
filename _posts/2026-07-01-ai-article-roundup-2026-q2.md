@@ -2,7 +2,7 @@
 
 Welcome to my latest list of AI-related links, similar to [my Q1 list](https://codeconscious.github.io/2026/04/01/ai-article-roundup-2026-q1.html) and other ones. This is the first edition in which I'm including videos, discussions, and quotations that I found interesting as well.
 
-It's been interesting seeing engineers' various reactions to the spread of AI online. Some seems obstinately against it in any fashion; others seem a bit obsessive about using it for everything everywhere at all times. It's going to be interesting to see how it plays out over time. AI will certainly not disappear. It's a great additional tool, but I'm not all for sinking all resources into it, especially at this early stage in its availability. While I'm happy to use it at work (and I increasingly do), I still aim to limit its use in personal development to keep it interesting, educational, and satisfying.
+It's been interesting seeing engineers' various reactions to the spread of AI into our profession. Some seems obstinately against it in any fashion whatsoever; others seem obsessive about using it for everything everywhere at all times. It's going to be interesting to see how it plays out over time. AI will certainly not disappear. It's a great additional tool, but I'm not all for sinking all resources into it, especially at this early stage in its availability. While I'm happy to use it at work (and I increasingly do with significant success), I still aim to limit its use in personal development to keep it interesting, educational, and fulfilling.
 
 Disclaimer: Each link simply represents information that I felt was interesting or helpful at the time that I noted it. A link's inclusion does not necessarily indicate agreement with its contents.
 
