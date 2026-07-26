@@ -22,6 +22,13 @@ printSummaries colWidths summaries = do
         sortBy (comparing category <> comparing summary) summaries
 ```
 
+Diff:
+
+```diff
+-         sortBy (comparing category) summaries
++         sortBy (comparing category <> comparing summary) summaries
+```
+
 Why does the operator [`<>`](https://hackage-content.haskell.org/package/base-4.22.0.0/docs/Prelude.html#g:9) work? Because "`Ord` instances form a monoid where comparison results can be combined."
 
 Aha, monoids are in play! Both [semigroups](https://wiki.haskell.org/Data.Semigroup) and [monoids](https://wiki.haskell.org/Monoid) allow for associative binary operations, but it didn't occur to me that sorting operations could be joined like this.
