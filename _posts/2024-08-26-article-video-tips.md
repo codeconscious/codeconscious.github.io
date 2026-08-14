@@ -20,6 +20,8 @@ I'd like to share some advice for creating programming-related articles and vide
 
 1. **Be thorough.** Don't leave steps out, even minor or seemingly obvious ones. Show (or at least describe) the expected output of recommended commands. If you know that a command might throw errors, then where possible show them and explain why they occur and how to resolve them.
 
-1. **Avoid bloat.** One example I hear in videos fairly often is "What I'm going to do is, I'm going to..." It can be difficult to avoid such colloqualisms completely, but it's worth trying to be cognizant of your usage in order to better avoid them.
+1. **Avoid bloat.** One example I hear in videos fairly often is "What I'm going to do is, I'm going to..." It can be difficult to avoid such colloquialisms completely, but it's worth trying to be cognizant of your usage in order to better avoid them.
 
-Last updated: April 2026
+1。**Use precise language.** Terms like "it" and "that" come to mind. Of course, using them is fine, but it might be beneficial to replace those words with the actual noun being referenced when there might be reader/viewer confusion.
+
+Last updated: August 2026
