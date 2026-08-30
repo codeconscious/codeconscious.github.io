@@ -1,6 +1,6 @@
 # Handling Unsupported Kanji in Shift-JIS (※日本語要約付き）
 
-I ran into a somewhat interesting character encoding–related conundrum at work recently.
+I ran into a somewhat interesting Japanese-related character encoding conundrum at work recently.
 
 Our system generates certain CSVs that are, for business reasons, in the Shift-JIS character encoding. This has been fine until now, but recently an internal user reported failures in that flow.
 
