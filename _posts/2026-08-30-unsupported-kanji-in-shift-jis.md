@@ -1,4 +1,4 @@
-# Avoiding Unsupported Kanji in Shift-JIS (※日本語要約付き）
+# Handling Unsupported Kanji in Shift-JIS (※日本語要約付き）
 
 I ran into a somewhat interesting character encoding–related conundrum at work recently.
 
