@@ -37,6 +37,10 @@ a {
   color: #6ba3ff;
 }
 
+a:hover {
+  color: #6ba3ff;
+}
+
 a:visited {
   color: #b19cd9;
 }
