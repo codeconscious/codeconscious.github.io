@@ -98,3 +98,10 @@ hr {
   font-size: 2.5em;
   opacity: 0.3;
 }
+
+blockquote {
+  color: #999898;
+  font-size: inherit;
+  letter-spacing: normal;
+  font-style: normal;
+}
