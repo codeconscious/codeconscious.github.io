@@ -4,13 +4,21 @@ body {
   color: #e0e0e0;
 }
 
-.wrapper {
+/* .wrapper {
   background-color: #1a1a1a;
-}
+} */
 
 .site-header {
   background-color: #0d0d0d;
   border-bottom-color: #333;
+}
+
+.site-title {
+  color: #e0e0e0 !important;
+}
+
+.site-title a {
+  color: #e0e0e0 !important;
 }
 
 .site-nav .page-link {
