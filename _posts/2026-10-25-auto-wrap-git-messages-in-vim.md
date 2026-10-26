@@ -1,4 +1,4 @@
-# Auto-format Git commit messages in Vim
+# Auto-wrap Git commit messages in Vim
 
 I've been using Copilot much more at work recently, and for more LLM-heavy code updates, I've been experimenting with sometimes leaving more detailed Git commit message bodies that include LLM comments as well for providing additional context. For example, if GitHub Copilot recommends a high-priority change that I approve, I'll include those notes in the commit message body.
 
