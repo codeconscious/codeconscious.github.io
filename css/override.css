@@ -23,6 +23,7 @@ body {
 
 .site-nav {
   background-color: #0d0d0d;
+  border: none
 }
 
 .site-nav .trigger {
