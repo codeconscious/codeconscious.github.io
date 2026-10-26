@@ -1,1 +1,1 @@
-Welcome! I'm Jon, a software engineer based in Japan with professional experience in .NET and Ruby on Rails. This blog is where I share learnings, tips, and thoughts related to software engineering. No AI is used in my writing; typos are my own. よろしくお願いします。
+Welcome! I'm Jon, a software engineer based in Japan with professional experience in .NET and Ruby on Rails. This blog is where I share learnings, tips, and thoughts related to software engineering. No AI is used in my writing; the typos are all mine. よろしくお願いします。
