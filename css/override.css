@@ -118,3 +118,22 @@ blockquote {
   letter-spacing: normal;
   font-style: normal;
 }
+
+/* Override code block colors */
+.hljs {
+  background-color: #2d2d2d !important;
+  color: #f0f0f0 !important;
+}
+
+.hljs-keyword,
+.hljs-symbol,
+.hljs-attr,
+.hljs-title,
+.hljs-string,
+.hljs-number,
+.hljs-literal,
+.hljs-type,
+.hljs-built_in,
+.hljs-function {
+  color: #f0f0f0 !important;
+}
