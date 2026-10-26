@@ -1,5 +1,7 @@
 # Auto-wrap Git commit messages in Vim
 
+(tl;dr: Add `filetype plugin on` to .vimrc.)
+
 I've been using Copilot much more at work recently, and for more LLM-heavy code updates, I've been experimenting with sometimes leaving more detailed Git commit message bodies that include LLM comments as well for providing additional context. For example, if GitHub Copilot recommends a high-priority change that I approve, I'll include those notes in the commit message body.
 
 In this, I've admittedly been influenced by David Thompson's post "[My favourite Git commit](https://dhwthompson.com/2019/my-favourite-git-commit)." (Also, let me note Michael Lynch's "[No Longer My Favorite Git Commit](https://mtlynch.io/no-longer-my-favorite-git-commit/)" which I came across while searching for the former link.)
