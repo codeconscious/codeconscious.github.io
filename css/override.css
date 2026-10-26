@@ -21,6 +21,14 @@ body {
   color: #e0e0e0 !important;
 }
 
+.site-nav {
+  background-color: #0d0d0d;
+}
+
+.site-nav .trigger {
+  background-color: #0d0d0d;
+}
+
 .site-nav .page-link {
   color: #e0e0e0;
 }
